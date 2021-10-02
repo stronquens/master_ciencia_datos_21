@@ -1,4 +1,4 @@
-# Seminario MLOps Máster Inteligencia Artificial Aplicada
+# Seminario MLOps Máster Ciencia de Datos
 
 # First Hands On
 
