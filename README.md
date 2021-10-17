@@ -242,7 +242,7 @@ curl -v -u admin:admin -X POST 'http://localhost:8081/service/rest/v1/components
 - Build and run training:
 ```
 cd training
-docker build -t training .; docker run --rm --network host training
+docker build -t training .; docker run --name=training -v ~/../output:/output --rm --network host training
 ```
 - Build and run execution:
 ```
