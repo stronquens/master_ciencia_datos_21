@@ -68,6 +68,13 @@ The service is developed in "master_ciencia_datos_21/flaskr/linreg.py".
 
 To run the service:
 
+Create environment:
+```
+conda deactiate 
+conda env create -f environment.yml
+conda activate master_ciencia_datos_21_flask
+```
+
 **Mac/Linux**:
 ```
 cd ..
@@ -183,7 +190,7 @@ conda create -n mlflow_server python=3
 conda activate mlflow_server
 pip install mlflow
 ```
-mlflow server
+mlflow server --backend-store-uri sqlite:///mydb.sqlite --default-artifact-root /Users/anllogui/dev/mlflow_server/artifacts
 ```
 
 
