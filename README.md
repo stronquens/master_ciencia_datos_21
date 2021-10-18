@@ -278,3 +278,11 @@ docker system prune -a
 ```
 docker exec -it <container name> /bin/bash
 ```
+
+
+
+- Tracking datasets version
+
+log datasets: dvc.org
+
+
